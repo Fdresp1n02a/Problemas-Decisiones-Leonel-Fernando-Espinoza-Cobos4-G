@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: rgb(8, 148, 228);
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+.problemas {
+  background-color: #e5effa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.problemas h2 {
+  margin-bottom: 10px;
+}
+
+.problemas p {
+  margin-bottom: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 8px 0;
+}
+nav ul li a {
+  text-decoration: none;
+  background-color: #1182cd;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #1abc9c;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo Semanal</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <h2>3-12 de Sueldo Semanal</h2>
+  <div class="problema">
+  <label>Horas trabajadas:
+  <input type="number" id="horas" min="0" max="50">
+  </label><br><br>
+  <label>Pago por hora:
+  <input type="number" id="pago" min="0">
+  </label><br><br>
+  <button onclick="calcularSueldo()">Calcular Sueldo</button>
+  <p id="resultado"></p>
+  </div>
+  <script src="../script/scripts.js"></script>
+</body>
+</html>

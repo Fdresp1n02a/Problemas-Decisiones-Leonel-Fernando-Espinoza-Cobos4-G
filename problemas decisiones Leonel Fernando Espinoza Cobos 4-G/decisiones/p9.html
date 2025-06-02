@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-9 Calculadora de Póliza de Seguro</title>
+  <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+<body>
+  <h2>Calculadora de Póliza de Seguro</h2>
+  <div class="problema">
+  <label>Tipo de póliza:
+    <select id="poliza">
+      <option value="A">Cobertura amplia (A)</option>
+      <option value="B">Daños a terceros (B)</option>
+    </select>
+  </label><br>
+  <label>¿Bebe alcohol?
+    <input type="checkbox" id="alcohol">
+  </label><br>
+  <label>¿Usa lentes?
+    <input type="checkbox" id="lentes">
+  </label><br>
+  <label>¿Tiene enfermedad?
+    <input type="checkbox" id="enfermedad">
+  </label><br>
+  <label>Edad:
+    <input type="number" id="edad">
+  </label><br><br>
+  <button onclick="calcularPoliza()">Calcular</button>
+  <p id="resultado"></p>
+  </div>
+  <script src="../script/scripts.js"></script>
+</body>
+</html>
