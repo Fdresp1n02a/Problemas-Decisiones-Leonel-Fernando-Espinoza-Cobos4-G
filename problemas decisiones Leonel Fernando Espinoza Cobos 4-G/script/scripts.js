@@ -11,7 +11,7 @@ function verificarVoto() {
   }
 }
 
-function calcularSueldo() {
+function calcularSueldo1() {
   const horas = parseFloat(document.getElementById('horas').value);
   const pago = parseFloat(document.getElementById('pago').value);
   let sueldo = 0;
